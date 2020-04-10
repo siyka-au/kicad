@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LS7366R
+F https://lsicsi.com/pdfs/Data_Sheets/LS7366R.pdf
+$ENDCMP
+#
+$CMP LS7366R-S
+F https://lsicsi.com/pdfs/Data_Sheets/LS7366R.pdf
+$ENDCMP
+#
+$CMP LS7366R-TS
+F https://lsicsi.com/pdfs/Data_Sheets/LS7366R.pdf
+$ENDCMP
+#
 #End Doc Library
