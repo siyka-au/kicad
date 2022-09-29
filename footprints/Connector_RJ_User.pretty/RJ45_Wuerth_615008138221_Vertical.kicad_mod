@@ -31,7 +31,7 @@
       (xy -9.3 6.225)
       (xy -9.3 3.325)
       (xy -8.3 3.325)
-    ) (layer "F.CrtYd") (width 0.1) (fill solid) (tstamp 5817ef29-32d0-4714-9fa8-71fc6782a95b))
+    ) (layer "F.CrtYd") (width 0.1) (fill none) (tstamp 5817ef29-32d0-4714-9fa8-71fc6782a95b))
   (fp_line (start -8 -8.325) (end 8 -8.325) (layer "F.Fab") (width 0.1) (tstamp 27ae8d1b-8348-48b4-9254-597193ceb6a3))
   (fp_line (start -8 8.325) (end -8 -8.325) (layer "F.Fab") (width 0.1) (tstamp 4e8995d7-1b59-4605-bbf4-b69843337089))
   (fp_line (start 8 -8.325) (end 8 8.325) (layer "F.Fab") (width 0.1) (tstamp af335126-f6fa-41df-8589-79f538015619))
