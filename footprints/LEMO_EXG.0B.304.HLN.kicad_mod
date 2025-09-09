@@ -1,0 +1,222 @@
+(footprint "LEMO_EXG.0B.304.HLN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LEMO Connector")
+	(tags "LEMO Connector")
+	(property "Reference" "X?"
+		(at 3.175 -7.46252 0)
+		(layer "F.SilkS")
+		(uuid "72d9c677-38c3-4b40-a34b-a312d1df49b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Value" "EXG.0B.304.HLN"
+		(at 3.81 7.06374 0)
+		(layer "F.SilkS")
+		(uuid "9e0b1e4a-d193-4f85-9ec8-afbd3863291f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1016)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f015b62-bf4b-4a31-9a5d-76e680bf2176")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70760ea2-467c-4510-9753-2c24405ea2e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -6.58876 -6.1976)
+		(end -6.58876 6.1976)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03d39b6a-9c59-4ec5-a74c-bbe67a2bbd48")
+	)
+	(fp_line
+		(start -6.58876 -6.1976)
+		(end 18.40992 -6.1976)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec278e28-722d-473a-b5ca-9501ee6fef59")
+	)
+	(fp_line
+		(start -6.58876 6.1976)
+		(end 18.40992 6.1976)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4709c651-2ed5-47b4-85e1-74cc941b210e")
+	)
+	(fp_line
+		(start 18.40992 -6.1976)
+		(end 18.40992 6.1976)
+		(stroke
+			(width 0.19812)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5da7d9df-d874-493e-b74d-130f781013ed")
+	)
+	(fp_line
+		(start -6.58876 -6.74878)
+		(end -6.58876 6.74878)
+		(stroke
+			(width 0.09906)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a2ede28-74b4-4fd4-a107-b2c5ee886b5c")
+	)
+	(fp_line
+		(start -6.58876 -6.74878)
+		(end 18.40992 -6.74878)
+		(stroke
+			(width 0.09906)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4b05f80-d76b-40a5-a104-3ea10fe6a2f6")
+	)
+	(fp_line
+		(start -6.58876 6.74878)
+		(end 18.40992 6.74878)
+		(stroke
+			(width 0.09906)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29e1f79a-1d28-446d-b539-95ad043f0c84")
+	)
+	(fp_line
+		(start 18.40992 -6.74878)
+		(end 18.40992 6.74878)
+		(stroke
+			(width 0.09906)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5608d9a-e1c9-415f-b0ff-19e37f3db015")
+	)
+	(fp_text user "1"
+		(at -1.9685 2.16916 0)
+		(layer "F.SilkS")
+		(uuid "88497b06-df5a-4329-b77e-6c4c3747aecb")
+		(effects
+			(font
+				(size 0.79756 0.79756)
+				(thickness 0.0762)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 1.27)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67df6a85-5582-4d40-adaf-a6eff42edcca")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 1.27)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f6b94f3-6bd4-475a-9586-494659457720")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 -1.27)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e5eae55-4855-4097-ad8a-847d5243706e")
+	)
+	(pad "4" thru_hole circle
+		(at -1.27 -1.27)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9f7d4c4-f0f3-4027-94dd-ab5f32685be3")
+	)
+	(pad "6" thru_hole circle
+		(at -3.81 3.81)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59a0e0f2-ee28-4e45-998a-72c6463355d6")
+	)
+	(pad "7" thru_hole circle
+		(at 3.81 3.81)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0c4cbd14-1ac5-4764-ad1f-f48d15597fcb")
+	)
+	(pad "8" thru_hole circle
+		(at 3.81 -3.81)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d28e098-fcd1-4c34-9258-d8790ffebd17")
+	)
+	(pad "9" thru_hole circle
+		(at -3.81 -3.81)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bfd4e0a5-e254-455e-9b14-fcc3fdc133e7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/LEMO_EXG-0B.304.HLN.stp"
+		(offset
+			(xyz -18.4 0 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
