@@ -5,25 +5,25 @@
 	(layer "F.Cu")
 	(descr "LEMO CONNECTOR")
 	(tags "LEMO CONNECTOR")
-	(property "Reference" ">NAME"
+	(property "Reference" "REF**"
 		(at 3.175 -7.2644 0)
 		(layer "F.SilkS")
-		(uuid "095ffff7-44e7-4363-80c4-2dd02414f535")
+		(uuid "6220715e-94a9-4c68-ad4d-4ccc5f9608a0")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
-	(property "Value" ">VALUE"
-		(at 3.81 6.86308 0)
-		(layer "F.SilkS")
-		(uuid "6c7790db-f9c6-4f1f-aba7-bdeefd1b1b99")
+	(property "Value" "LEMO_EZG.1B.306.CLN"
+		(at 0 6.8 0)
+		(layer "F.Fab")
+		(uuid "b36e5d61-9e05-4ce0-8c6c-a8dbb8439eb4")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -31,10 +31,10 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "71ff611d-5a6b-43a6-9919-03e62da5c57f")
+		(uuid "e0b65d75-f9e4-4e00-9682-f58e3e8b7266")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -43,128 +43,76 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "216d388f-aa68-4cbe-84f1-300663817b03")
+		(uuid "99b249a3-763f-4caa-b6ab-470c91591752")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_line
-		(start -5.99948 -5.99948)
-		(end -5.99948 5.99948)
+		(start -1.92456 -6.3)
+		(end 0.07544 -6.3)
 		(stroke
-			(width 0.19812)
+			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "04bc5574-4cc2-40b4-86f6-e1655d4275c8")
+		(uuid "12ae54c2-603a-42e0-a720-b33faf27a90a")
+	)
+	(fp_rect
+		(start -6.12 -6.12)
+		(end 6.12 6.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "47a10133-b80c-4d6b-94eb-4939d352ccdb")
 	)
 	(fp_line
-		(start -5.99948 -5.99948)
-		(end 5.99948 -5.99948)
+		(start -1.92456 -6)
+		(end -0.92456 -4.8)
 		(stroke
-			(width 0.19812)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.SilkS")
-		(uuid "ef51dc10-20cb-4769-ac5f-a252e54c8671")
+		(layer "F.Fab")
+		(uuid "2ee9966c-4992-45a9-ba36-359266aa2ca4")
 	)
 	(fp_line
-		(start -5.99948 5.99948)
-		(end 5.99948 5.99948)
+		(start -0.92456 -4.8)
+		(end 0.07544 -6)
 		(stroke
-			(width 0.19812)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.SilkS")
-		(uuid "44e528a8-1ceb-4d4a-8938-f21ac16eb0de")
+		(layer "F.Fab")
+		(uuid "68479f05-efa5-4f1b-bbe1-e67fafac6408")
 	)
-	(fp_line
-		(start -0.79756 -6.44906)
-		(end 0.79756 -6.44906)
+	(fp_rect
+		(start -6 -6)
+		(end 6 6)
 		(stroke
-			(width 0.19812)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
-		(layer "F.SilkS")
-		(uuid "fe367954-b659-48a8-bc5a-aa04547d01df")
+		(fill no)
+		(layer "F.Fab")
+		(uuid "61a7a16f-6e00-4f93-9cc0-6ff26b11caea")
 	)
-	(fp_line
-		(start 5.99948 -5.99948)
-		(end 5.99948 5.99948)
-		(stroke
-			(width 0.19812)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f2663741-4b97-4256-bcaa-9f908495080a")
-	)
-	(fp_text user "3"
-		(at -1.62306 2.5019 0)
-		(layer "F.SilkS")
-		(uuid "2c2c0497-904e-4fb1-b102-055832a6c47e")
+	(fp_text user "${REFERENCE}"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aa2be7f0-507c-4b00-ac09-8093269aed86")
 		(effects
 			(font
-				(size 0.79756 0.79756)
-				(thickness 0.0762)
-			)
-		)
-	)
-	(fp_text user "5"
-		(at 2.74828 -0.89916 0)
-		(layer "F.SilkS")
-		(uuid "3c6e3edc-9c17-48c1-87a1-e6e1359e3f0a")
-		(effects
-			(font
-				(size 0.79756 0.79756)
-				(thickness 0.0762)
-			)
-		)
-	)
-	(fp_text user "2"
-		(at -2.54762 -0.89916 0)
-		(layer "F.SilkS")
-		(uuid "71ecb70d-bce3-40c6-af38-d57a3bf4c7d3")
-		(effects
-			(font
-				(size 0.79756 0.79756)
-				(thickness 0.0762)
-			)
-		)
-	)
-	(fp_text user "1"
-		(at -1.62306 -2.5019 0)
-		(layer "F.SilkS")
-		(uuid "d2c0582a-30a8-43db-8d2b-351b68d028e1")
-		(effects
-			(font
-				(size 0.79756 0.79756)
-				(thickness 0.0762)
-			)
-		)
-	)
-	(fp_text user "4"
-		(at 1.82372 2.5019 0)
-		(layer "F.SilkS")
-		(uuid "e58b7b10-481e-4121-a128-6de89d8f038a")
-		(effects
-			(font
-				(size 0.79756 0.79756)
-				(thickness 0.0762)
-			)
-		)
-	)
-	(fp_text user "6"
-		(at 1.82372 -2.5019 0)
-		(layer "F.SilkS")
-		(uuid "f0e58d62-5e3b-41f4-9aad-d3fa7ebdf091")
-		(effects
-			(font
-				(size 0.79756 0.79756)
-				(thickness 0.0762)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -249,4 +197,15 @@
 		(uuid "f22e9fc4-508c-40c7-ad21-c80a8f233fe5")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/Connector_LEMO_User.3dshapes/LEMO_EZG.1B.306.CLN.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

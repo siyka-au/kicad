@@ -200,7 +200,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "EZG.1B.306.CLN"
+	(symbol "LEMO_EZG.1B.306.CLN"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -216,7 +216,7 @@
 				)
 			)
 		)
-		(property "Value" "EZG.1B.306.CLN"
+		(property "Value" "LEMO_EZG.1B.306.CLN"
 			(at 1.27 -10.16 0)
 			(effects
 				(font
@@ -261,7 +261,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "EZG.1B.306.CLN_1_1"
+		(symbol "LEMO_EZG.1B.306.CLN_1_1"
 			(rectangle
 				(start -1.27 6.35)
 				(end 1.27 -8.89)
